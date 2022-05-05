@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+*{
+    PADDING: 0;
+    MARGIN: 0; 
+}
+
+body{
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(red, green, blue);
+}
+
+ul{
+    list-style-type: none;
+}
+nav{
+    background-color: #E9D7C2;
+    padding: 2rem;
+}
+
+footer{
+    background-color: #E9D7C2;
+}
+
+header{
+    background-color: whitesmoke;
+    margin: 30px 50px 50px 30px;
+    padding: 40px;
+}
+
+main{
+    text-align: center;
+    margin: 15px 25px 25px 15px;
+}
+
+h1{
+    font-family: sans-serif;
+    color: #848082;
+    padding: 1rem 2rem 2rem 1rem;
+}
+
+.navbar{
+    display: flex;
+    justify-content: end;
+}
+
+.navbar li {
+    margin: 0 5px;
+    border: 1px;
+}
+
+.logo{
+    width: 6rem;
+    top:1rem;
+    object-fit: cover;
+    border-radius: 40%;
+}
+
+.secciones{
+    width: 0%;
+    padding: 1rem,2rem;
+    margin: 1rem;
+    background-color: aliceblue;
+    border-radius: 1rem;
+}
+
+.secciones{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.seccion{
+    padding: 5px 10px;
+    margin: 10px 20px;
+    border-style:groove;
+}
+
+.seccion img{
+    width: 20rem;
+    height: 25rem;
+    object-fit: cover;
+    ;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    font-family: sans-serif;
+    color: #848082;
+    justify-content: space-evenly;
+}
+
+.babypics{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.babypics p{
+    font-family: 'PT Sans', sans-serif;
+    color: #848082;
+}
+
+.girlpics{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.girspics p{
+    font-family: 'PT Sans', sans-serif;
+    color: #848082;
+}
+
+.boyspics{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-family: "PT Sans Narrow", sans-serif;
+}
+
+.boyspics p{
+    font-family: 'PT Sans', sans-serif;
+    color: #848082;
+}
+
+.formulario{
+    font-family: sans-serif;
+    text-align: justify;
+    padding: 2rem 4rem;
+    background-color: peachpuff;
+    color: #848082;
+
+}
