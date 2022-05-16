@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="./estilos/style.css"> 
     <title>THIS IS THE ANGELITOS</title>
 </head>
@@ -44,19 +46,19 @@
         <div class="grid-menu">
         <div class="menu-baby"> 
             <h2>BEBES</h2> 
-            <img src="./img/bebes.jpg" alt="foto de un bebe">
+            <img src="./img/bebes.jpg" data-aos="zoom-in-down" alt="foto de un bebe">
         </div>
         <div class="menu-kids">
             <h2>NIÑOS</h2>
-            <img src="./img/niños.jpg" alt="foto de niño">
+            <img src="./img/niños.jpg" data-aos="zoom-in-up" alt="foto de niño">
         </div>
         <div class="menu-girls">
             <h2>NIÑAS</h2>
-            <img src="./img/niñas.jpg" alt="foto de niña">
+            <img src="./img/niñas.jpg" data-aos="zoom-in" alt="foto de niña">
         </div>
         <div class="menu-accesories">
             <h2>ACCESORIOS</h2>
-            <img src="./img/coveraccesories.jpg" alt="foto de accesorio de bebes">
+            <img src="./img/coveraccesories.jpg" data-aos="zoom-in-down" alt="foto de accesorio de bebes">
         </div>
         </div>
     </main>
@@ -77,5 +79,10 @@
         </div>
 
     </footer>
+
+    <script>
+        AOS.init();
+    </script>
+
 </body>
 </html>
